@@ -37,7 +37,7 @@ invoke bgpwatch with the yaml file containing the routes to watch:
 
 ## debug
 
-Use the `-a` option for showing all updates received matching your prefix list.
+Use the `-d` option for showing all updates received matching your prefix list.
 This is quite verbose.
 
 ## Devel
