@@ -49,3 +49,10 @@ Things that would be not hard to do:
  - watch components of an expected path asn rather than just origin asn
  - watch for more-specific announcements, even if the origin matches
 
+## Docker
+
+You can use the Dockerfile to build locally or pull from karlnewell/bgpwatch.
+You need to bind mount the yaml file containing your prefixes:OriginASNs to be monitored.
+Example:
+
+    docker run -it --rm -v $PWD/routes.yaml:/routes.yaml karlnewell/bgpwatch -d -f routes.yaml
