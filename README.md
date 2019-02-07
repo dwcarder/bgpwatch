@@ -59,5 +59,5 @@ Example:
 
 ## Acknowledgements:
 
-Dale W. Carder - ESnet
-Karl Newell - Internet2
+- Dale W. Carder - ESnet
+- Karl Newell - Internet2
