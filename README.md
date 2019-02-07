@@ -51,8 +51,13 @@ Things that would be not hard to do:
 
 ## Docker
 
-You can use the Dockerfile to build locally or pull from karlnewell/bgpwatch.
+You can use the Dockerfile to build locally or pull from dwcarder/bgpwatch.
 You need to bind mount the yaml file containing your prefixes:OriginASNs to be monitored.
 Example:
 
-    docker run -it --rm -v $PWD/routes.yaml:/routes.yaml karlnewell/bgpwatch -d -f routes.yaml
+    docker run -it --rm -v $PWD/routes.yaml:/routes.yaml dwcarder/bgpwatch -d -f routes.yaml
+
+## Acknowledgements:
+
+Dale W. Carder - ESnet
+Karl Newell - Internet2
